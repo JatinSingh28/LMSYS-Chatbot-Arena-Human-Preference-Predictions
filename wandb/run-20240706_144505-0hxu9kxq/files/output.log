@@ -1,0 +1,10 @@
+Some weights of LlamaForSequenceClassification were not initialized from the model checkpoint at llama-3/transformers/8b-hf/1 and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/transformers/optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]
+Epoch 1/1
+Train Epoch 1: 100%|██████████| 1/1 [00:10<00:00, 10.30s/it]
+Eval Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]
+

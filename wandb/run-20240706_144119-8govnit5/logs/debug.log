@@ -1,0 +1,64 @@
+2024-07-06 14:41:19,967 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Current SDK version is 0.17.4
+2024-07-06 14:41:19,967 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Configure stats pid to 6360
+2024-07-06 14:41:19,967 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Loading settings from /teamspace/studios/this_studio/.config/wandb/settings
+2024-07-06 14:41:19,967 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Loading settings from /teamspace/studios/this_studio/wandb/settings
+2024-07-06 14:41:19,968 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-06 14:41:19,968 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-06 14:41:19,968 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-07-06 14:41:19,968 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-07-06 14:41:19,968 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-06 14:41:19,968 INFO    MainThread:6360 [wandb_init.py:_log_setup():529] Logging user logs to /teamspace/studios/this_studio/wandb/run-20240706_144119-8govnit5/logs/debug.log
+2024-07-06 14:41:19,968 INFO    MainThread:6360 [wandb_init.py:_log_setup():530] Logging internal logs to /teamspace/studios/this_studio/wandb/run-20240706_144119-8govnit5/logs/debug-internal.log
+2024-07-06 14:41:19,968 INFO    MainThread:6360 [wandb_init.py:init():569] calling init triggers
+2024-07-06 14:41:19,968 INFO    MainThread:6360 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {'model_name': '/llama-3/transformers/8b-hf/1', 'max_length': 1284, 'batch_size': 6, 'r': 16, 'lora_alpha': 32, 'lora_dropout': 0.1, 'lr': 2e-05, 'num_epochs': 1, 'num_warmup_steps': 100}
+2024-07-06 14:41:19,969 INFO    MainThread:6360 [wandb_init.py:init():594] re-initializing run, found existing run on stack: i4u3uxxg
+2024-07-06 14:41:19,971 INFO    MainThread:6360 [wandb_run.py:_finish():2109] finishing run jatinsingh/LMSYS/i4u3uxxg
+2024-07-06 14:41:19,971 INFO    MainThread:6360 [jupyter.py:save_history():444] not saving jupyter history
+2024-07-06 14:41:19,971 INFO    MainThread:6360 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-06 14:41:19,971 INFO    MainThread:6360 [wandb_init.py:_jupyter_teardown():457] cleaning up jupyter logic
+2024-07-06 14:41:19,971 INFO    MainThread:6360 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-07-06 14:41:19,971 INFO    MainThread:6360 [wandb_run.py:_restore():2332] restore
+2024-07-06 14:41:19,972 INFO    MainThread:6360 [wandb_run.py:_restore():2338] restore done
+2024-07-06 14:41:24,166 INFO    MainThread:6360 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-06 14:41:24,166 INFO    MainThread:6360 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-06 14:41:24,171 INFO    MainThread:6360 [wandb_run.py:_footer_sync_info():3950] logging synced files
+2024-07-06 14:41:24,250 INFO    MainThread:6360 [wandb_init.py:init():619] starting backend
+2024-07-06 14:41:24,250 INFO    MainThread:6360 [wandb_init.py:init():623] setting up manager
+2024-07-06 14:41:24,251 INFO    MainThread:6360 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-06 14:41:24,252 INFO    MainThread:6360 [wandb_init.py:init():631] backend started and connected
+2024-07-06 14:41:24,259 INFO    MainThread:6360 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-07-06 14:41:24,260 INFO    MainThread:6360 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-06 14:41:24,260 INFO    MainThread:6360 [wandb_init.py:init():720] updated telemetry
+2024-07-06 14:41:24,260 INFO    MainThread:6360 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-06 14:41:25,327 INFO    MainThread:6360 [wandb_run.py:_on_init():2402] communicating current version
+2024-07-06 14:41:25,345 INFO    MainThread:6360 [wandb_run.py:_on_init():2411] got version response 
+2024-07-06 14:41:25,345 INFO    MainThread:6360 [wandb_init.py:init():804] starting run threads in backend
+2024-07-06 14:41:29,035 INFO    MainThread:6360 [wandb_run.py:_console_start():2380] atexit reg
+2024-07-06 14:41:29,036 INFO    MainThread:6360 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-07-06 14:41:29,036 INFO    MainThread:6360 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-07-06 14:41:29,036 INFO    MainThread:6360 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-07-06 14:41:29,037 INFO    MainThread:6360 [wandb_init.py:init():847] run started, returning control to user process
+2024-07-06 14:42:30,665 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Current SDK version is 0.17.4
+2024-07-06 14:42:30,665 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Configure stats pid to 6360
+2024-07-06 14:42:30,665 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Loading settings from /teamspace/studios/this_studio/.config/wandb/settings
+2024-07-06 14:42:30,665 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Loading settings from /teamspace/studios/this_studio/wandb/settings
+2024-07-06 14:42:30,666 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-06 14:42:30,666 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-06 14:42:30,666 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-07-06 14:42:30,666 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-07-06 14:42:30,666 INFO    MainThread:6360 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-06 14:42:30,666 INFO    MainThread:6360 [wandb_init.py:_log_setup():529] Logging user logs to /teamspace/studios/this_studio/wandb/run-20240706_144230-nwql6n7y/logs/debug.log
+2024-07-06 14:42:30,666 INFO    MainThread:6360 [wandb_init.py:_log_setup():530] Logging internal logs to /teamspace/studios/this_studio/wandb/run-20240706_144230-nwql6n7y/logs/debug-internal.log
+2024-07-06 14:42:30,666 INFO    MainThread:6360 [wandb_init.py:_jupyter_setup():475] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd534194520>
+2024-07-06 14:42:30,667 INFO    MainThread:6360 [wandb_init.py:init():569] calling init triggers
+2024-07-06 14:42:30,667 INFO    MainThread:6360 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {'model_name': 'llama-3/transformers/8b-hf/1', 'max_length': 1284, 'batch_size': 6, 'r': 16, 'lora_alpha': 32, 'lora_dropout': 0.1, 'lr': 2e-05, 'num_epochs': 1, 'num_warmup_steps': 100}
+2024-07-06 14:42:30,667 INFO    MainThread:6360 [wandb_init.py:init():594] re-initializing run, found existing run on stack: 8govnit5
+2024-07-06 14:42:30,669 INFO    MainThread:6360 [wandb_run.py:_finish():2109] finishing run jatinsingh/LMSYS/8govnit5
+2024-07-06 14:42:30,669 INFO    MainThread:6360 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-07-06 14:42:30,669 INFO    MainThread:6360 [wandb_run.py:_restore():2332] restore
+2024-07-06 14:42:30,669 INFO    MainThread:6360 [wandb_run.py:_restore():2338] restore done
+2024-07-06 14:42:34,978 INFO    MainThread:6360 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-06 14:42:34,979 INFO    MainThread:6360 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-06 14:42:34,984 INFO    MainThread:6360 [wandb_run.py:_footer_sync_info():3950] logging synced files

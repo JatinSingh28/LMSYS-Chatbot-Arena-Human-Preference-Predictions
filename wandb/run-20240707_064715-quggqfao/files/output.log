@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/lmsys-comp-train.py", line 159, in <module>
+    model = LlamaForSequenceClassification.from_pretrained(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3279, in from_pretrained
+    hf_quantizer.validate_environment(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/transformers/quantizers/quantizer_bnb_4bit.py", line 62, in validate_environment
+    raise RuntimeError("No GPU found. A GPU is needed for quantization.")
+RuntimeError: No GPU found. A GPU is needed for quantization.

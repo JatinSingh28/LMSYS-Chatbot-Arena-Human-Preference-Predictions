@@ -1,0 +1,201 @@
+{
+    "os": "Linux-5.15.0-1063-aws-x86_64-with-glibc2.31",
+    "python": "3.10.10",
+    "heartbeatAt": "2024-07-07T07:15:29.310617",
+    "startedAt": "2024-07-07T07:15:28.963220",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "ip-10-192-12-113",
+    "username": "zeus",
+    "executable": "/home/zeus/miniconda3/envs/cloudspace/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 2811.8740937500015,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3180.033,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2799.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 823.9567794799805,
+            "used": 24.769329071044922
+        }
+    },
+    "gpu": "NVIDIA A10G",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A10G",
+            "memory_total": 24146608128
+        }
+    ],
+    "memory": {
+        "total": 124.45748901367188
+    }
+}
